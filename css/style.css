@@ -119,7 +119,7 @@ ol {
 }
 
 .section-title span {
-	color: #e32879;
+	color: #00ff00;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -167,7 +167,7 @@ ol {
 .primary-btn {
 	font-size: 16px;
 	color: #ffffff;
-	background: #e32879;
+	background: #00ff00;
 	display: inline-block;
 	font-weight: 700;
 	padding: 12px 30px 10px;
@@ -179,8 +179,8 @@ ol {
 	font-weight: 700;
 	padding: 10px 34px;
 	display: inline-block;
-	background: #e32879;
-	border: 1px solid #e32879;
+	background: #00ff00;
+	border: 1px solid #00ff00;
 }
 
 /* Preloder */
@@ -355,12 +355,12 @@ ol {
 
 
 .container {
-	opacity: 30%;
+	opacity: 0.8;
 	background-color: #000000;
 }
 
 .hs-text span {
-	color: #e32879;
+	color: #00ff00;
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -476,7 +476,7 @@ ol {
 }
 
 .service-item:hover {
-	border-bottom: 3px solid #e32879;
+	border-bottom: 3px solid #00ff00;
 }
 
 .service-item h4 {
@@ -556,7 +556,7 @@ ol {
 	display: inline-block;
 	width: 66px;
 	height: 66px;
-	background: #e32879;
+	background: #00ff00;
 	border-radius: 50%;
 	text-align: center;
 	font-size: 26px;
@@ -616,7 +616,7 @@ ol {
 
 .counter-item .ci-number {
 	font-size: 48px;
-	color: #e32879;
+	color: #00ff00;
 	font-weight: 700;
 	line-height: 50px;
 	position: absolute;
@@ -671,7 +671,7 @@ ol {
 
 .testimonial-slider.owl-carousel .owl-dots button.owl-dot.active {
 	width: 27px;
-	background: #e32879;
+	background: #00ff00;
 	border-radius: 50px;
 }
 
@@ -708,7 +708,7 @@ ol {
 
 .testimonial-item .ti-text .ti-title span {
 	font-size: 12px;
-	color: #e32879;
+	color: #00ff00;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -743,7 +743,7 @@ ol {
 
 .ctc-text .primary-btn.ctc-btn {
 	background: #ffffff;
-	color: #e32879;
+	color: #00ff00;
 }
 
 /*---------------------
@@ -807,7 +807,7 @@ ol {
 
 .member-item .mi-text .mt-title span {
 	font-size: 12px;
-	color: #e32879;
+	color: #00ff00;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -879,7 +879,7 @@ ol {
 }
 
 .footer-option .fo-social a:hover {
-	background: #e32879;
+	background: #00ff00;
 }
 
 .footer-widget {
@@ -947,7 +947,7 @@ ol {
 	color: #ffffff;
 	font-weight: 700;
 	display: block;
-	background: #e32879;
+	background: #00ff00;
 	border: none;
 	padding: 12px 0;
 	width: 100%;
@@ -968,15 +968,11 @@ ol {
 }
 
 .copyright-text i {
-	color: #e32879;
-}
-
-.copyright-text a {
-	color: #b3b3b3;
+	color: #00ff00;
 }
 
 .copyright-text a:hover {
-	color: #e32879;
+	color: #00ff00;
 }
 
 /* ------------------------------ Other Pages Styles ------------------------------ */
@@ -1046,8 +1042,8 @@ ol {
 }
 
 .blog-section .blog-btn .primary-btn {
-	background: #222222;
-	border: 2px solid #e32879;
+	background: #ffffff;
+	border: 2px solid #00ff00;
 }
 
 .blog-item {
@@ -1057,7 +1053,7 @@ ol {
 }
 
 .blog-item.solid-bg {
-	background: #e32879;
+	background: #00ff00;
 	padding: 55px 45px 55px 65px;
 }
 
@@ -1103,7 +1099,7 @@ ol {
 .blog-item .bi-text ul li {
 	list-style: none;
 	display: inline-block;
-	color: #e32879;
+	color: #00ff00;
 	font-size: 14px;
 	margin-right: 8px;
 }
@@ -1150,7 +1146,7 @@ ol {
 
 .blog-item .bi-text .bt-author .ba-text span {
 	font-size: 12px;
-	color: #e32879;
+	color: #00ff00;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -1169,7 +1165,7 @@ ol {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 700;
-	background: #e32879;
+	background: #00ff00;
 	padding: 5px 26px;
 }
 
@@ -1321,7 +1317,7 @@ ol {
 }
 
 .bd-text .tag-share .tags a:hover {
-	background: #e32879;
+	background: #00ff00;
 }
 
 .bd-text .tag-share .social-share {
@@ -1338,7 +1334,7 @@ ol {
 }
 
 .bd-text .tag-share .social-share a:hover {
-	color: #e32879;
+	color: #00ff00;
 }
 
 .bd-text .tag-share .social-share span {
@@ -1380,7 +1376,7 @@ ol {
 }
 
 .bd-text .blog-author .bt-social a:hover {
-	color: #e32879;
+	color: #00ff00;
 }
 
 .bd-text .blog-author .bt-social a:last-child {
@@ -1578,7 +1574,7 @@ ol {
 }
 
 .gallery-section .gallery-controls ul li.active {
-	color: #e32879;
+	color: #00ff00;
 }
 
 .gallery-section .gallery-controls ul li:last-child {
@@ -1636,7 +1632,7 @@ ol {
 }
 
 .contact-text .ct-item .ci-icon span {
-	color: #e32879;
+	color: #00ff00;
 	font-size: 30px;
 }
 
@@ -1755,12 +1751,12 @@ ol {
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #e32879;
+		background: #00ff00;
 		color: #ffffff;
 	}
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
-		background: #e32879;
+		background: #00ff00;
 		color: #ffffff;
 	}
 	.breadcrumb-text {
