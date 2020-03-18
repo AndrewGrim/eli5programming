@@ -7,7 +7,7 @@
     <meta name="keywords" content="Hazze, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>eli5programming | Home</title>
+    <title>eli5programming | Python</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600,700,800,900&display=swap"
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/python_style.css" type="text/css">
 </head>
 
 <body>
@@ -43,10 +43,10 @@
                 <div class="col-lg-10 col-md-10">
                     <div class="main-menu mobile-menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="./index.html">Home</a></li>
                             <li><a href="#">VB8</a></li>
                             <li><a href="#">Java</a></li>
-                            <li><a href="python.html">Python</a>
+                            <li class="active"><a href="./python.html">Python</a>
                             </li>
                         </ul>
                     </div>
@@ -58,18 +58,32 @@
     <!-- Header End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero-section set-bg" data-setbg="images/ruby.jpg">
+    <section class="hero-section set-bg">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="hs-text">
-                        <span>About</span>
-                        <h2>ELI5 Programming</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
-                        <a href="https://github.com/AndrewGrim/eli5programming/blob/master/README.md" class="primary-btn">Read More</a>
-                    </div>
-                </div>
+            <button onclick="displayContent()">Corey Schafer Python Fundamentals</button>
+            <div id="corey-python">
+                <iframe class="python-iframe" src="https://www.youtube.com/embed/YYXdXT2l-Gg?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br><br>
+                <p>
+                    Here is a playlist of Python videos focusing on fundamentals for beginners.
+                    The first video in the series focuses on how to install Python on MacOS and Windows so no prior experience is required. 
+
+                    The entire playlist covers common programming concepts like:
+                </p>
+                <ul style="padding-left: 2em;">
+                    <li>variables and different data types</li>
+                    <li>sets and collections of data</li>
+                    <li>flow control statments and conditionals</li>
+                    <li>functions</li>
+                    <li>using modules</li>
+                    <li>error handling</li>
+                </ul>
+                <br>
+                <p>
+                    In addition to that some of the videos present a more hands on problem like reading and writing csv files.
+                </p>
+                The source code for the videos can be found <a href="https://github.com/CoreyMSchafer/code_snippets">here</a> in folders prefaced with "Python"
+                <br><br>
             </div>
         </div>
     </section>
@@ -92,6 +106,7 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/python.js"></script>
 </body>
 
 </html>
