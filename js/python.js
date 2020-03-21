@@ -1,5 +1,5 @@
-function displayContent() {
-    var element = document.getElementById("corey-python");
+function displayContent(elementID) {
+    var element = document.getElementById(elementID);
     if (element.style.display === "inline-block" || element.style.display === "") {
         element.style.display = "none";
     } else {
