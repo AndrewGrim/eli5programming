@@ -59,16 +59,8 @@ Desktop media query.
 	}
 
 	.logo img {
-		width: 128px;
+		width: 256px;
 	}
-}
-
-.logo {
-	padding: 24px 0 30px;
-}
-
-.logo a {
-	display: inline-block;
 }
 
 .menubar {
@@ -81,6 +73,7 @@ Desktop media query.
 @media only screen and (min-width: 1200px) {
 	.menubar {
 		text-align: right;
+		padding-right: 15px; 
 	}
 }
 
