@@ -25,14 +25,14 @@ img {
 	max-width: 100%;
 }
 
+a:visited {
+	color: #3d5afa;
+}
+
 a:hover {
 	text-decoration: none;
 	outline: none;
 	color: #00ff00;
-}
-
-a:visited {
-	color: #3d5afa;
 }
 
 ul, li {
