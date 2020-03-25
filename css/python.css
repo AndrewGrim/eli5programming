@@ -11,6 +11,15 @@ html, body {
 	background-color: #3d5afa;
 }
 
+/*
+Mobile media query.
+*/
+@media only screen and (max-width: 1200px) {
+	html, body {
+		background-color: #000000;
+	}
+}
+
 p {
 	font-size: 16px;
 	font-family: "Libre Franklin", sans-serif;
@@ -45,36 +54,12 @@ ul, li {
 
 .header-section {
 	background: #000000;
-}
-
-/*
-Desktop media query.
-*/
-@media only screen and (min-width: 1200px) {
-	.header-section {
-		width: 60%;
-		padding-left: 20%;
-		padding-right: 20%;
-		display: inline-block;
-	}
-
-	.logo img {
-		width: 256px;
-	}
+	display: inline-block;
 }
 
 .menubar {
 	text-align: right;
-}
-
-/*
-Desktop media query.
-*/
-@media only screen and (min-width: 1200px) {
-	.menubar {
-		text-align: right;
-		padding-right: 15px; 
-	}
+	padding-right: 15px;
 }
 
 .menubar a {
@@ -97,11 +82,43 @@ Desktop media query.
 }
 
 .menubar ul li a {
-	font-size: 16px;
+	font-size: 17px;
 	color: #ffffff;
 	font-weight: 700;
 	display: inline-block;
 	padding: 25px 0 30px;
+}
+
+/*
+Desktop media query.
+*/
+@media only screen and (min-width: 1200px) {
+	.header-section {
+		width: 60%;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
+	.logo img {
+		width: 256px;
+	}
+}
+
+/*
+Mobile media query.
+*/
+@media only screen and (max-width: 1200px) {
+	.header-section {
+		width: 100%;
+	}
+
+	.logo img {
+		width: 128px;
+	}
+
+	.menubar ul li {
+		margin-left: 25px;
+	}
 }
 
 /*==============================================================================
@@ -113,9 +130,6 @@ Div that holds most content of the webpage excluding the header and footer.
 */
 .content-section {
 	min-height: 800px;
-	width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
 	background-color: #000000;
 	display: inline-block;
 }
@@ -125,6 +139,7 @@ Top level div for everything in the content-section.
 */
 .container {
 	background-color: #000000;
+	display: inline-block;
 }
 
 
@@ -132,11 +147,33 @@ Top level div for everything in the content-section.
 Desktop media query.
 */
 @media only screen and (min-width: 1200px) {
+	.content-section {
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
 	.container {
 		width: 90%;
 		margin-left: 5%;
 		margin-right: 5%;
-		display: inline-block;
+	}
+}
+
+/*
+Mobile media query.
+*/
+@media only screen and (max-width: 1200px) {
+	.content-section {
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	.container {
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
 	}
 }
 
