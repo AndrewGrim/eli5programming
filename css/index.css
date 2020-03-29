@@ -1,0 +1,237 @@
+/*==============================================================================
+                                DEFAULT SECTION
+==============================================================================*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "Libre Franklin", sans-serif;
+	color: #f8f8f8;
+	background-color: #000000;
+	background-image: url("../images/ruby.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+p {
+	font-size: 16px;
+	font-family: "Libre Franklin", sans-serif;
+	color: #f8f8f8;
+	font-weight: 400;
+	line-height: 26px;
+	margin: 0 0 15px 0;
+	padding-left: 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+a:visited {
+	color: #3d5afa;
+}
+
+a:hover {
+	text-decoration: none;
+	outline: none;
+	color: #00ff00;
+}
+
+ul, li {
+	color: #FFE89E;
+}
+
+/*
+Mobile media query.
+*/
+@media only screen and (max-width: 1200px) {
+	html, body {
+		background-color: #000000;
+	}
+}
+
+/*==============================================================================
+                                HEADER SECTION
+==============================================================================*/
+
+.header-section {
+	background: #000000;
+	display: inline-block;
+}
+
+.menubar {
+	text-align: right;
+	padding-right: 15px;
+}
+
+.menubar a {
+	text-decoration: none;
+}
+
+.menubar ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 35px;
+	position: relative;
+}
+
+.menubar ul li.active a {
+	color: #00ff00;
+}
+
+.menubar ul li:hover>a {
+	color: #00ff00;
+}
+
+.menubar ul li a {
+	font-size: 17px;
+	color: #ffffff;
+	font-weight: 700;
+	display: inline-block;
+	padding: 25px 0 30px;
+}
+
+/*
+Desktop media query.
+*/
+@media only screen and (min-width: 1200px) {
+	.header-section {
+		width: 60%;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
+	.logo img {
+		width: 256px;
+	}
+}
+
+/*
+Mobile media query.
+*/
+@media only screen and (max-width: 1200px) {
+	.header-section {
+		width: 100%;
+	}
+
+	.logo img {
+		width: 128px;
+	}
+
+	.menubar ul li {
+		margin-left: 25px;
+	}
+}
+
+/*==============================================================================
+                                CONTENT SECTION
+==============================================================================*/
+
+/*
+Div that holds most content of the webpage excluding the header and footer.
+*/
+.content-section {
+	min-height: 800px;
+	background-color: #000000;
+	display: inline-block;
+	opacity: 0.9;
+}
+
+/*
+Top level div for everything in the content-section.
+*/
+.container {
+	background-color: #000000;
+	display: inline-block;
+	
+}
+
+.about-section h3{
+	color: #00ff00;
+}
+
+.about-section h1{
+	font-size: 36pt;
+}
+
+#more-text {
+	display: none;
+	background-color: #000000; 
+}
+
+#more-button {
+	display: inline-block;
+	font-size: 14pt;
+	margin-top: 50px;
+	padding: 20px 30px 20px 30px;
+	background-color: #00ff00;
+	color: #ffffff;
+	border: solid black 2px;
+}
+
+#more-button:hover {
+	background-color: #ffffff;
+	color: #00ff00;
+}
+
+
+/*
+Desktop media query.
+*/
+@media only screen and (min-width: 1200px) {
+	.content-section {
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
+	.container {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+/*
+Mobile media query.
+*/
+@media only screen and (max-width: 1200px) {
+	.content-section {
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	.container {
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
+
+/*==============================================================================
+                                FOOTER SECTION
+==============================================================================*/
+
+.footer-section {
+	background: #000000;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.source-link {
+	padding-top: 25px;
+	text-align: center;
+	font-size: 14px;
+}
+
+/*
+Desktop media query.
+*/
+@media only screen and (min-width: 1200px) {
+	.footer-section {
+		min-height: 160px;
+	}
+}

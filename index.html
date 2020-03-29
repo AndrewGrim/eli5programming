@@ -1,97 +1,58 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html>
+    <head>
+        <title>ELI5 - Home</title>
+        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600,700,800,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <script src="js/index.js"></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Hazze Template">
-    <meta name="keywords" content="Hazze, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>eli5programming | Home</title>
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
-
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-
-<body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-
-    <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-2">
-                    <div class="logo">
-                        <a href="./index.html">
-                            <img src="images/logo.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-10 col-md-10">
-                    <div class="main-menu mobile-menu">
-                        <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="#">VB8</a></li>
-                            <li><a href="#">Java</a></li>
-                            <li><a href="python.html">Python</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <body>
+        <!-- HEADER -->
+        <header class="header-section">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
             </div>
-            <div id="mobile-menu-wrap"></div>
-        </div>
-    </header>
-    <!-- Header End -->
+            <div class="menubar">
+                <ul>
+                    <li class="active"><a href="./index.html">Home</a></li>
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="./python.html">Python</a>
+                    <li><a href="#">VBA</a></li>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- HEADER END -->
 
-    <!-- Hero Section Begin -->
-    <section class="hero-section set-bg" data-setbg="images/ruby.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="hs-text">
-                        <span>About</span>
-                        <h2>ELI5 Programming</h2>
+        <!-- CONTENT -->
+        <section class="content-section set-bg">
+            <div class="container">
+                <div class="about-section">
+                        <h3>About</h3>
+                        <h1>ELI5 Programming</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.</p>
-                        <a href="https://github.com/AndrewGrim/eli5programming/blob/master/README.md" class="primary-btn">Read More</a>
-                    </div>
+                        <div id="more">
+                            <button href="https://github.com/AndrewGrim/eli5programming/blob/master/README.md" id="more-button" onclick="show_more()">Read More</button>
+                        </div>
+                        <p id="more-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Hero Section End -->
+        </section>
+        <!-- CONTENT END -->
 
-    <!-- Footer Section Begin -->
-    <section class="footer-section">
-        
-        <div class="copyright-text">
-            <a href="https://www.github.com/AndrewGrim/eli5programming">github</a>
-        </div>
-    </section>
-    <!-- Footer Section End -->
-
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
+        <!-- FOOTER -->
+        <footer class="footer-section">
+            <div class="source-link">
+                <a href="https://www.github.com/AndrewGrim/eli5programming" target="_blank">GitHub</a>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+    </body>
 </html>
