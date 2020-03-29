@@ -11,15 +11,6 @@ html, body {
 	background-color: #3d5afa;
 }
 
-/*
-Mobile media query.
-*/
-@media only screen and (max-width: 1200px) {
-	html, body {
-		background-color: #000000;
-	}
-}
-
 p {
 	font-size: 16px;
 	font-family: "Libre Franklin", sans-serif;
@@ -46,6 +37,15 @@ a:hover {
 
 ul, li {
     color: #FFE89E;
+}
+
+/*
+Mobile media query.
+*/
+@media only screen and (max-width: 1200px) {
+	html, body {
+		background-color: #000000;
+	}
 }
 
 /*==============================================================================
@@ -187,6 +187,12 @@ Mobile media query.
 	padding-bottom: 50px;
 }
 
+.source-link {
+	padding-top: 25px;
+	text-align: center;
+	font-size: 14px;
+}
+
 /*
 Desktop media query.
 */
@@ -194,12 +200,6 @@ Desktop media query.
 	.footer-section {
 		min-height: 160px;
 	}
-}
-
-.source-link {
-	padding-top: 25px;
-	text-align: center;
-	font-size: 14px;
 }
 
 /*==============================================================================
