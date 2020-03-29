@@ -150,10 +150,15 @@ Top level div for everything in the content-section.
 
 .about-section h3{
 	color: #00ff00;
+	font-size: 20pt;
 }
 
 .about-section h1{
 	font-size: 36pt;
+}
+
+.about-section p{
+	font-size: 16pt;
 }
 
 #more-text {
