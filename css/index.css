@@ -145,7 +145,6 @@ Top level div for everything in the content-section.
 .container {
 	background-color: #000000;
 	display: inline-block;
-	
 }
 
 .about-section h3{
@@ -161,14 +160,20 @@ Top level div for everything in the content-section.
 	font-size: 16pt;
 }
 
+/*
+Text thats hidden by default and has to be revealed using the button below.
+*/
 #more-text {
 	display: none;
-	background-color: #000000; 
 }
 
+/*
+Button for showing more text in the about section.
+*/
 #more-button {
 	display: inline-block;
 	font-size: 14pt;
+	font-weight: 800;
 	margin-top: 50px;
 	padding: 20px 30px 20px 30px;
 	background-color: #00ff00;
