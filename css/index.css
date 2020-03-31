@@ -176,14 +176,14 @@ Button for showing more text in the about section.
 	font-weight: 800;
 	margin-top: 50px;
 	padding: 20px 30px 20px 30px;
-	background-color: #00ff00;
+	background-color: #1fd500;
 	color: #ffffff;
 	border: solid black 2px;
 }
 
 #more-button:hover {
 	background-color: #ffffff;
-	color: #00ff00;
+	color: #1fd500;
 }
 
 
