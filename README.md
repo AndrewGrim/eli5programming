@@ -17,6 +17,12 @@ This is followed by any additional comments from the developer and a link to sou
 
 <p align="center">
     <img src="images/home_screenshot.png" alt="screenshot" width="300" height="200"></img>
+</p>
+<p align="center">
+    <img src="images/android_screenshot.png" alt="screenshot" width="300" height="200"></img>
+    <img src="images/java_screenshot.png" alt="screenshot" width="300" height="200"></img>
+</p>
+<p align="center">
     <img src="images/python_screenshot.png" alt="screenshot" width="300" height="200"></img>
     <img src="images/vba_screenshot.png" alt="screenshot" width="300" height="200"></img>
 </p>
