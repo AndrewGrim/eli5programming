@@ -10,8 +10,8 @@ html,body{
     opacity: 0.95;
 }
 
-.text ul li {
-    list-style: none;
+ul li {
+    color: #3CDA83;
 }
 
 .video-button {
