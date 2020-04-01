@@ -8,7 +8,7 @@ html, body {
 	height: 100%;
 	font-family: "Libre Franklin", sans-serif;
 	color: #f8f8f8;
-	background-color: #000000;
+	background-color: #888888;
 }
 
 p {
@@ -25,7 +25,7 @@ img {
 	max-width: 100%;
 }
 
-a:visited {
+a {
 	color: #3d5afa;
 }
 
@@ -197,7 +197,7 @@ Desktop media query.
 Top video div containing all elements that belong to a particular video or playlist
 */
 .video {
-	margin-top: 15px;
+	margin-bottom: 15px;
 	outline-width: 2px;
 	outline-style: solid;
 	outline-color: #f8f8f8;
