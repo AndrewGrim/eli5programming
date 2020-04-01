@@ -3,36 +3,36 @@
 ==============================================================================*/
 
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	font-family: "Libre Franklin", sans-serif;
-	color: #f8f8f8;
-	background-color: #888888;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Libre Franklin", sans-serif;
+    color: #f8f8f8;
+    background-color: #888888;
 }
 
 p {
-	font-size: 16px;
-	font-family: "Libre Franklin", sans-serif;
-	color: #f8f8f8;
-	font-weight: 400;
-	line-height: 26px;
-	margin: 0 0 15px 0;
-	padding-left: 15px;
+    font-size: 16px;
+    font-family: "Libre Franklin", sans-serif;
+    color: #f8f8f8;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    padding-left: 15px;
 }
 
 img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 a {
-	color: #3d5afa;
+    color: #3d5afa;
 }
 
 a:hover {
-	text-decoration: none;
-	outline: none;
-	color: #00ff00;
+    text-decoration: none;
+    outline: none;
+    color: #00ff00;
 }
 
 /*==============================================================================
@@ -40,72 +40,72 @@ a:hover {
 ==============================================================================*/
 
 .header-section {
-	background: #000000;
-	display: inline-block;
+    background: #000000;
+    display: inline-block;
 }
 
 .menubar {
-	text-align: right;
-	padding-right: 15px;
+    text-align: right;
+    padding-right: 15px;
 }
 
 .menubar a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .menubar ul li {
-	display: inline-block;
-	list-style: none;
-	margin-left: 35px;
-	position: relative;
+    display: inline-block;
+    list-style: none;
+    margin-left: 35px;
+    position: relative;
 }
 
 .menubar ul li.active a {
-	color: #00ff00;
+    color: #00ff00;
 }
 
 .menubar ul li:hover>a {
-	color: #00ff00;
+    color: #00ff00;
 }
 
 .menubar ul li a {
-	font-size: 17px;
-	color: #f8f8f8;
-	font-weight: 700;
-	display: inline-block;
-	padding: 25px 0 30px;
+    font-size: 17px;
+    color: #f8f8f8;
+    font-weight: 700;
+    display: inline-block;
+    padding: 25px 0 30px;
 }
 
 /*
 Desktop media query.
 */
 @media only screen and (min-width: 1200px) {
-	.header-section {
-		width: 60%;
-		padding-left: 20%;
-		padding-right: 20%;
-	}
+    .header-section {
+        width: 60%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
 
-	.logo img {
-		width: 256px;
-	}
+    .logo img {
+        width: 256px;
+    }
 }
 
 /*
 Mobile media query.
 */
 @media only screen and (max-width: 1200px) {
-	.header-section {
-		width: 100%;
-	}
+    .header-section {
+        width: 100%;
+    }
 
-	.logo img {
-		width: 128px;
-	}
+    .logo img {
+        width: 128px;
+    }
 
-	.menubar ul li {
-		margin-left: 25px;
-	}
+    .menubar ul li {
+        margin-left: 25px;
+    }
 }
 
 /*==============================================================================
@@ -116,17 +116,17 @@ Mobile media query.
 Div that holds most content of the webpage excluding the header and footer.
 */
 .content-section {
-	min-height: 800px;
-	background-color: #000000;
-	display: inline-block;
+    min-height: 800px;
+    background-color: #000000;
+    display: inline-block;
 }
 
 /*
 Top level div for everything in the content-section.
 */
 .container {
-	background-color: #000000;
-	display: inline-block;
+    background-color: #000000;
+    display: inline-block;
 }
 
 
@@ -134,34 +134,34 @@ Top level div for everything in the content-section.
 Desktop media query.
 */
 @media only screen and (min-width: 1200px) {
-	.content-section {
-		width: 60%;
-		margin-left: 20%;
-		margin-right: 20%;
-	}
-	
-	.container {
-		width: 90%;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
+    .content-section {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 /*
 Mobile media query.
 */
 @media only screen and (max-width: 1200px) {
-	.content-section {
-		width: 100%;
-		margin-left: 0%;
-		margin-right: 0%;
-	}
+    .content-section {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 
-	.container {
-		width: 96%;
-		margin-left: 2%;
-		margin-right: 2%;
-	}
+    .container {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
 
 /*==============================================================================
@@ -169,24 +169,24 @@ Mobile media query.
 ==============================================================================*/
 
 .footer-section {
-	background: #000000;
-	padding-top: 80px;
-	padding-bottom: 50px;
+    background: #000000;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .source-link {
-	padding-top: 25px;
-	text-align: center;
-	font-size: 14px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 14px;
 }
 
 /*
 Desktop media query.
 */
 @media only screen and (min-width: 1200px) {
-	.footer-section {
-		min-height: 160px;
-	}
+    .footer-section {
+        min-height: 160px;
+    }
 }
 
 /*==============================================================================
@@ -197,29 +197,29 @@ Desktop media query.
 Top video div containing all elements that belong to a particular video or playlist
 */
 .video {
-	margin-bottom: 15px;
-	outline-width: 2px;
-	outline-style: solid;
-	outline-color: #f8f8f8;
+    margin-bottom: 15px;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: #f8f8f8;
 }
 
 /*
 Button that shows or hides a video and its associated video-text.
 */
 .video-button {
-	background-color: #282828;
-	font-size: 18px;
-	color: #f8f8f8;
-	padding: 15px;
-	width: 100%;
+    background-color: #282828;
+    font-size: 18px;
+    color: #f8f8f8;
+    padding: 15px;
+    width: 100%;
 }
 
 /*
 Frame that holds the embedded youtube video.
 */
 .video-iframe {
-	width: 100%;
-	height: 400px;
+    width: 100%;
+    height: 400px;
 }
 
 /* 
@@ -228,6 +228,6 @@ Div containing the embedded video with the accompanying text.
 Set to "inline-block" by default so that each video text is shown on page load until the user closes it.
 */
 .video-text { 
-	display: inline-block;
-	width: 100%;
+    display: inline-block;
+    width: 100%;
 }
