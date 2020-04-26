@@ -41,7 +41,19 @@ a:hover {
 
 .header-section {
     background: #000000;
-    display: inline-block;
+    display: block;
+}
+
+#header-table {
+    width: 100%;
+}
+
+#icon-column {
+    width: 30%;
+}
+
+#menubar-column {
+    width: 70%;
 }
 
 .menubar {
@@ -185,7 +197,7 @@ Desktop media query.
 */
 @media only screen and (min-width: 1200px) {
     .footer-section {
-        min-height: 160px;
+        min-height: 200px;
     }
 }
 
